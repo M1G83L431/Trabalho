@@ -1,0 +1,54 @@
+#menu {
+    list-style-type: none;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 30px;
+    background-color: rgb(194, 54, 175);
+    /* opacity: .1; */
+    position: fixed;
+    top: 0;
+    width: 96%;
+    margin: 0;
+   font-size:1.5em;
+}
+#menu li a {
+    text-decoration: none;
+    color: antiquewhite;
+    margin: 0 20px;
+
+}
+#menu li a.active{
+    color: blueviolet;
+    font-weight: bold;
+    border-bottom: 2px solid #fc369c;
+}
+
+.social{
+    font-size: 2em;
+}
+
+.wow{
+    font-size: 2em;
+}
+
+.tete{
+    font-size: 2em;
+}
+
+.tyty{
+    font-size: 2em;
+}
+
+.ay{
+    font-size: 3em;
+}
+
+.ey{
+    font-size: 2em;
+}
+
+#menu li a:hover {
+    color: #ff0000;
+    font-size: 1.1em;
+}
